@@ -1,0 +1,384 @@
+{
+	"BODY": {
+		"name": "The Area the Where the Body was Discovered",
+		"desc": "You can see the outline of the victim's discovery location. The body was taken to the CORONER this morning. Now only the outline remains. Despite having fallen from the ROOF, the amount of blood on the ground is minimal.",
+		"exits": [
+			{
+				"exit": "ROOF",
+				"target": "ROOF"
+			},
+			{
+				"exit": "ROAD",
+				"target": "ROAD"
+			},
+			{
+				"exit": "CAMERAS",
+				"target": "CAMERAS"
+			},
+			{
+				"exit": "SUSPECTS",
+				"target": "SUSPECTS"
+			},
+			{
+				"exit": "CORONER",
+				"target": "CORONER"
+			},
+			{
+				"exit": "PARKING",
+				"target": "PARKING"
+			},
+			{
+				"exit": "A OFFICE",
+				"target": "A OFFICE"
+			},
+			{
+				"exit": "POLICE",
+				"target": "POLICE"
+			},
+			{
+				"exit": "S OFFICES",
+				"target": "S OFFICES"
+			}
+		]
+	}
+	,"ROOF": {
+		"name": "Roof of the Building",
+		"desc": "You investigate the area where Alan fell from. You see that a piece of the fence is missing bolts and has been loosened. It is possible that this was a freak accident, but evidence points towards pre-meditated murder.",
+		"exits": [
+			{
+				"exit": "BODY",
+				"target": "BODY"
+			},
+			{
+				"exit": "ROAD",
+				"target": "ROAD"
+			},
+			{
+				"exit": "CAMERAS",
+				"target": "CAMERAS"
+			},
+			{
+				"exit": "SUSPECTS",
+				"target": "SUSPECTS"
+			},
+			{
+				"exit": "CORONER",
+				"target": "CORONER"
+			},
+			{
+				"exit": "PARKING",
+				"target": "PARKING"
+			},
+			{
+				"exit": "A OFFICE",
+				"target": "A OFFICE"
+			},
+			{
+				"exit": "POLICE",
+				"target": "POLICE"
+			},
+			{
+				"exit": "S OFFICES",
+				"target": "S OFFICES"
+			}
+		]
+	}
+	,"ROAD": {
+		"name": "The Roadside",
+		"desc": "The side of the road would typically be barrren, however while conducting your investigation you come across bolts that look as if they belong to the building's infastructure.",
+		"exits": [
+			{
+				"exit": "ROOF",
+				"target": "ROOF"
+			},
+			{
+				"exit": "BODY",
+				"target": "BODY"
+			},
+			{
+				"exit": "CAMERAS",
+				"target": "CAMERAS"
+			},
+			{
+				"exit": "SUSPECTS",
+				"target": "SUSPECTS"
+			},
+			{
+				"exit": "CORONER",
+				"target": "CORONER"
+			},
+			{
+				"exit": "PARKING",
+				"target": "PARKING"
+			},
+			{
+				"exit": "A OFFICE",
+				"target": "A OFFICE"
+			},
+			{
+				"exit": "POLICE",
+				"target": "POLICE"
+			},
+			{
+				"exit": "S OFFICES",
+				"target": "S OFFICES"
+			}
+		]
+	}
+	,"CAMERAS": {
+		"name": "The Mounted Security Cameras",
+		"desc": "While investigating you look at the mounted security tapes. Unfourtunately there is no camera focused on the roof, only the front door. You watch as Mr. Pepperson leaves first at 9pm, followed by Alice at 10pm and Carson at 11pm.",
+		"exits": [
+			{
+				"exit": "ROOF",
+				"target": "ROOF"
+			},
+			{
+				"exit": "ROAD",
+				"target": "ROAD"
+			},
+			{
+				"exit": "BODY",
+				"target": "BODY"
+			},
+			{
+				"exit": "SUSPECTS",
+				"target": "SUSPECTS"
+			},
+			{
+				"exit": "CORONER",
+				"target": "CORONER"
+			},
+			{
+				"exit": "PARKING",
+				"target": "PARKING"
+			},
+			{
+				"exit": "A OFFICE",
+				"target": "A OFFICE"
+			},
+			{
+				"exit": "POLICE",
+				"target": "POLICE"
+			},
+			{
+				"exit": "S OFFICES",
+				"target": "S OFFICES"
+			}
+		]
+	}
+	,"SUSPECTS": {
+		"name": "Three Coworkers who last saw Alan",
+		"desc": "You interrogate the woman who found Alan, Alice Smith. She claims that she worked with Alan on some projects, but that she didn't know him very well. Next you talk to Carson Adams. Carson claims that he didn't talk to Alan really, but that he had mutual contact through his ex-girlfriend Alice. The third suspect, the old janitor Mr. Pepperson claims he saw Alan head up to the roof before he clocked out. Mr. Pepperson also claims that both Carson and Alice were still at the office when he left.",
+		"exits": [
+			{
+				"exit": "ROOF",
+				"target": "ROOF"
+			},
+			{
+				"exit": "ROAD",
+				"target": "ROAD"
+			},
+			{
+				"exit": "CAMERAS",
+				"target": "CAMERAS"
+			},
+			{
+				"exit": "BODY",
+				"target": "BODY"
+			},
+			{
+				"exit": "CORONER",
+				"target": "CORONER"
+			},
+			{
+				"exit": "PARKING",
+				"target": "PARKING"
+			},
+			{
+				"exit": "A OFFICE",
+				"target": "A OFFICE"
+			},
+			{
+				"exit": "POLICE",
+				"target": "POLICE"
+			},
+			{
+				"exit": "S OFFICES",
+				"target": "S OFFICES"
+			}
+		]
+	}
+	,"PARKING": {
+		"name": "The Parking Lot for the Building",
+		"desc": "You search through the suspect's cars. Mr. Pepperson has nothing in his car except an extra jacket and a bottle of Pepsi. Carson has miscellaneous junkfood wrappers, but nothing suspcious. Alice has a collection of thick, woven scarves in a box labelled 'Goodwill'.",
+		"exits": [
+			{
+				"exit": "ROOF",
+				"target": "ROOF"
+			},
+			{
+				"exit": "ROAD",
+				"target": "ROAD"
+			},
+			{
+				"exit": "CAMERAS",
+				"target": "CAMERAS"
+			},
+			{
+				"exit": "SUSPECTS",
+				"target": "SUSPECTS"
+			},
+			{
+				"exit": "CORONER",
+				"target": "CORONER"
+			},
+			{
+				"exit": "BODY",
+				"target": "BODY"
+			},
+			{
+				"exit": "A OFFICE",
+				"target": "A OFFICE"
+			},
+			{
+				"exit": "POLICE",
+				"target": "POLICE"
+			},
+			{
+				"exit": "S OFFICES",
+				"target": "S OFFICES"
+			}
+		]
+	}
+	,"A OFFICE": {
+		"name": "Alan's Office",
+		"desc": "You searched his computer and found files labelled 'Financial Plan Edits' as well as a crumpled note in his trash. The note says to 'meet me later tonight for our project'. The handwriting is similar to Carson's but there something off about it.",
+		"exits": [
+			{
+				"exit": "ROOF",
+				"target": "ROOF"
+			},
+			{
+				"exit": "ROAD",
+				"target": "ROAD"
+			},
+			{
+				"exit": "CAMERAS",
+				"target": "CAMERAS"
+			},
+			{
+				"exit": "SUSPECTS",
+				"target": "SUSPECTS"
+			},
+			{
+				"exit": "CORONER",
+				"target": "CORONER"
+			},
+			{
+				"exit": "PARKING",
+				"target": "PARKING"
+			},
+			{
+				"exit": "BODY",
+				"target": "BODY"
+			},
+			{
+				"exit": "POLICE",
+				"target": "POLICE"
+			},
+			{
+				"exit": "S OFFICES",
+				"target": "S OFFICES"
+			}
+		]
+	}
+	,"CORONER": {
+		"name": "The Coroner's Office",
+		"desc": "You talk to the coroner in charge of your case. They tell you that Alan's time of death was 11pm the night before. The coroner also claimed that the body showed signs of strangulation.",
+		"exits": [
+			{
+				"exit": "ROOF",
+				"target": "ROOF"
+			},
+			{
+				"exit": "ROAD",
+				"target": "ROAD"
+			},
+			{
+				"exit": "CAMERAS",
+				"target": "CAMERAS"
+			},
+			{
+				"exit": "SUSPECTS",
+				"target": "SUSPECTS"
+			},
+			{
+				"exit": "BODY",
+				"target": "BODY"
+			},
+			{
+				"exit": "PARKING",
+				"target": "PARKING"
+			},
+			{
+				"exit": "A OFFICE",
+				"target": "A OFFICE"
+			},
+			{
+				"exit": "POLICE",
+				"target": "POLICE"
+			},
+			{
+				"exit": "S OFFICES",
+				"target": "S OFFICES"
+			}
+		]
+	}
+	,"S OFFICES": {
+		"name": "The Suspect's Offices",
+		"desc": "You don't find anything significant in the suspect's offices. You only find a very nasty letter between Alice and Carson. They were arguing about who got to keep the money after they split up.",
+		"exits": [
+			{
+				"exit": "ROOF",
+				"target": "ROOF"
+			},
+			{
+				"exit": "ROAD",
+				"target": "ROAD"
+			},
+			{
+				"exit": "CAMERAS",
+				"target": "CAMERAS"
+			},
+			{
+				"exit": "SUSPECTS",
+				"target": "SUSPECTS"
+			},
+			{
+				"exit": "BODY",
+				"target": "BODY"
+			},
+			{
+				"exit": "PARKING",
+				"target": "PARKING"
+			},
+			{
+				"exit": "A OFFICE",
+				"target": "A OFFICE"
+			},
+			{
+				"exit": "POLICE",
+				"target": "POLICE"
+			},
+			{
+				"exit": "CORONER",
+				"target": "CORONER"
+			}
+		]
+	}
+	,"POLICE": {
+		"name": "The Police Station",
+		"desc": "You have visited the Police Station to go over evidence."
+	}
+}
